@@ -1,0 +1,20 @@
+# Visual Studio and build output
+.vs/
+**/bin/
+**/obj/
+*.csproj.user
+
+# Local configuration and credentials
+appsettings.*.local.json
+**/secrets.json
+**/.env
+**/.env.*
+
+# Network captures may contain authentication tokens and personal data
+**/*.har
+captures/
+
+# Local logs and diagnostics
+*.log
+*.user
+*.suo

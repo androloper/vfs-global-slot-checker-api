@@ -1,0 +1,4 @@
+@vfs_global_slot_checker_api_HostAddress = http://localhost:5281
+
+GET {{vfs_global_slot_checker_api_HostAddress}}/api/vfs/availability
+Accept: application/json
